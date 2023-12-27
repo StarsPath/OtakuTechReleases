@@ -1,0 +1,1000 @@
+Mods: {
+	OtakuTech: {
+		Currencies.CrystalCurrency: Crystal
+
+		TownNPCMood: {
+			Homu: {
+				Content: I feel pretty fine right now.
+				NoHome: I would very much like a house, all the colorful monsters scare me.
+				LoveSpace: I love how there is so much space here to code tModLoader mods!
+				FarFromHome: Could you please get me back to my house?
+				DislikeCrowded: There are too many people around, it makes it hard for me to focus on mod making.
+				HateCrowded: I can't test my mod with so many people around!
+				LikeBiome: "{BiomeName} is a very nice place to test mods in."
+				LoveBiome: I love {BiomeName}.
+				DislikeBiome: It's way too cold in {BiomeName}, I'm freezing!
+				HateBiome: Its kind of hard to mod while being attacked by monsters in {BiomeName}.
+				LikeNPC: I can respect {NPCName} as a fellow guide and educator!
+				LoveNPC: Do you think {NPCName} notices me?
+				DislikeNPC: '''"{NPCName} keeps rambling on about "payed mods"... Wish I could convince him how terrible of an idea that is."'''
+				HateNPC: I hate all the loud noises caused by {NPCName} and his explosives! I just want peace and quiet.
+			}
+		}
+
+		Dialogue: {
+			Homu: {
+				D1: Standard, Expansion, and Focus Supplies for only 28 Crystals per crate!
+				D2: Did you know that tier 1 honkai beasts have a 2.5% chance to drop a Honkai shard?
+				D3: Did you know that tier 2 honkai beasts have a 5% chance to drop a Honkai shard?
+				D4: Did you know that Benares can drop 1-3 Honkai Cubes and 10 Expansion Supply Crates?
+				D5: Did you know that all honkai beasts have a 10% chance to drop a Crystal?
+				D6: Did you know that the Dev wants to add Pardofelis to the mod ... eventually?
+			}
+		}
+
+		Keybinds.Ultimate.DisplayName: Ultimate
+
+		Tiles: {
+			ExpansionSupply.MapEntry: Expansion Supply
+			ExperimentalSupply.MapEntry: Experimental Supply
+			FocusSupply.MapEntry: Focus Supply
+			ProgramingStation.MapEntry: Programing Station
+			StandardSupply.MapEntry: Standard Supply
+		}
+
+		Buffs: {
+			AWorldfulofWoes: {
+				DisplayName: A Worldfulof Woes
+				Description: Herrscher of Sentience form
+			}
+
+			CrystalRose: {
+				DisplayName: Crystal Rose
+				Description: I am the beginning, I am the end...
+			}
+
+			EightFormations: {
+				DisplayName: Eight Formations
+				Description: Increase all damage multiplier by {0}%
+			}
+
+			Fervent: {
+				DisplayName: Fervent
+				Description: Increase Melee Crit by {0}%
+			}
+
+			Impair: {
+				DisplayName: Impair
+				Description: Defensive stat is set to 0
+			}
+
+			KeyOfReasonCannon: {
+				DisplayName: Key Of Reason Cannon
+				Description: The KOR Cannon will fight for you
+			}
+
+			LibationToFire: {
+				DisplayName: Libation To Fire
+				Description: Lose {0}% of current HP per second
+			}
+
+			NightCarnival: {
+				DisplayName: Night Carnival
+				Description: Gains bonuses
+			}
+
+			PristineSeed: {
+				DisplayName: Pristine Seed
+				Description: No Description
+			}
+
+			ProjectBunnyBike: {
+				DisplayName: Project Bunny Bike
+				Description: Dija vu
+			}
+
+			RadiantDestiny: {
+				DisplayName: Radiant Destiny
+				Description: Herrscher of Origin form
+			}
+
+			RavenBlitz: {
+				DisplayName: Raven Blitz
+				Description:
+					'''
+					Player transforms into a raven can passthrough blocks if there is enough space
+					Player gains {0}% increased ranged damage
+					'''
+			}
+
+			RefiningAscension: {
+				DisplayName: Refining Ascension
+				Description: Create a sword formation. Normal attacks dashes to farthest sword.
+			}
+
+			Rosy: {
+				DisplayName: Rosy
+				Description: Heal for 2% max hp on every hit
+			}
+
+			TestBuff: {
+				DisplayName: Test Buff
+				Description: No Description
+			}
+
+			TheBeginningOfYouAndI: {
+				DisplayName: The Beginning Of You And I
+				Description: Creats a crystal formation that reflects arrows from Whisper of the Past charge attacks.
+			}
+
+			TimeFracture: {
+				DisplayName: Time Fracture
+				Description: Slowed in time
+			}
+
+			TimeLock: {
+				DisplayName: Time Lock
+				Description: Locked in time
+			}
+
+			VelionasTorrent: {
+				DisplayName: Velionas Torrent
+				Description: Increase Melee Damage by {0}%
+			}
+
+			# Signet Buffs =========================================================
+			
+			SignetsOfBodhi: {
+				DisplayName: Signets Of Bodhi
+				Description: Gains bonuses when hit count reaches 150
+			}
+
+			SignetsOfSetsuna: {
+				DisplayName: Signets Of Setsuna
+				Description: Gains bonuses after triggering time fracture
+			}
+
+			SignetsOfVicissitude: {
+				DisplayName: Signets Of Vicissitude
+				Description: Gains bonuses when not taking hit
+			}
+		}
+
+		Items: {
+			# Accessories ==========================================================
+			
+			Burden: {
+				DisplayName: Burden
+				Tooltip:
+					'''
+					A small tongue of crimson flame sealed within solid ice.
+					+{0}% increased melee damage
+					+{1}% increased magic damage
+					+{2} increased melee damage penetration
+					+{3} increased magic damage penetration
+					'''
+			}
+
+			CarKey: {
+				DisplayName: Car Key
+				Tooltip: Remodelled Bunny 19C goes DejaVu~
+			}
+
+			CrystalRose: {
+				DisplayName: Crystal Rose
+				Tooltip:
+					'''
+					A crystal flower that blooms like a rose, lovely and timeless.
+					Revives the player on fatal damage, heals player to full health
+					pushes enemies away, and grants 1 second of immunity CD: 5 min
+					'''
+			}
+
+			ForbiddenSeed: {
+				DisplayName: Forbidden Seed
+				Tooltip:
+					'''
+					The embryo of some strange creature that has been sealed in a glass container.
+					Every minion on the field boosts magic DMG by {0}%
+					Every minion on the field boosts ranged DMG by {1}%
+					Every minion on the field boosts damage reduction by {2}%
+					increases summon DMG by {3}%
+					+{4} max minion
+					+{5} max sentry
+					'''
+			}
+
+			ForgetMeNot: {
+				DisplayName: Forget Me Not
+				Tooltip:
+					'''
+					Several light blue flowers. If you draw near, you can smell their faint fragrance.
+					Allows the player to dash by double tap
+					Triggers time fracture on dash lasting 2 seconds
+					+{0}% movement (walk, jump, fly) speed and attack speed
+					+{1}% increased damage for 5 seconds after dash
+					'''
+			}
+
+			GoldGoblet: {
+				DisplayName: Gold Goblet
+				Tooltip:
+					'''
+					A wine goblet made of gold. It ever runs over with fine wine.
+					Every 10 mana left boosts magic DMG by {0}%
+					Every 10 mana left boosts ranged DMG by {1}%
+					Every 10 mana left boosts damage reduction by {2}%
+					increases max mana by {3}
+					increases mana regen
+					decreases mana regen delay
+					'''
+			}
+
+			LightAsABodhiLeaf: {
+				DisplayName: Light As A Bodhi Leaf
+				Tooltip:
+					'''
+					An ordinary leaf that falls from the tree of Sumeru.
+					Gain a massive buff after hitting enemies 150 times that:
+					+{0}% increased melee damage
+					+{1}% increased ranged damage
+					+{2}% increased damage reduction
+					Hit count is reset after granting buff or when accessory removed
+					'''
+			}
+
+			MadKingsMask: {
+				DisplayName: Mad Kings Mask
+				Tooltip:
+					'''
+					A mask that combines lightness with durability,
+					although its practicality as armor is nonetheless suspect.
+					Every 10 HP loss boosts melee DMG by {0}%
+					Every 10 HP loss boosts magic DMG by {1}%
+					Every 10 HP loss boosts damage reduction by {2}%
+					increases max hp by {3}
+					'''
+			}
+
+			Memory: {
+				DisplayName: Memory
+				Tooltip:
+					'''
+					A photo that seems to be from a while back. The frame has a lot of impact dents..
+					+{0}% increased melee damage for every seconds on Signets of Vicissitude buff
+					+{1}% increased ranged damage for every seconds on Signets of Vicissitude buff
+					+{2}% increased damage reduction for every seconds on Signets of Vicissitude buff
+					Taking hits reduces Signets of Vicissitude buff time by half
+					Signets of Vicissitude buff lingers for some time after unequiping
+					'''
+			}
+
+			# Placeables ==================================================
+			
+			ExpansionSupplyItem: {
+				DisplayName: Expansion Supply Item
+				Tooltip:
+					'''
+					Right click to open supply
+					Chances to obtain Non-RPI-able Weapons and Accessories
+					'''
+			}
+
+			ExperimentalSupply: {
+				DisplayName: Experimental Supply
+				Tooltip:
+					'''
+					Right click to open supply
+					Experimental Supply, Gives all items from this mod.
+					Use for debugging purposes. You are welcomed to use 
+					this item to try out all the toys
+					'''
+			}
+
+			FocusSupplyItem: {
+				DisplayName: Focus Supply Item
+				Tooltip:
+					'''
+					Right click to open supply
+					Chances to RPI-able Weapons
+					'''
+			}
+
+			ProgramingStation: {
+				DisplayName: Programing Station
+				Tooltip: ""
+			}
+
+			StandardSupplyItem: {
+				DisplayName: Standard Supply Item
+				Tooltip:
+					'''
+					Right click to open supply
+					Chances to obtain coins and upgrade materials
+					'''
+			}
+
+			# Weapons ==========================================================
+			
+			TestStick: {
+				DisplayName: Test Stick
+				Tooltip: ""
+			}
+
+			AbyssFlower: {
+				DisplayName: Abyss Flower
+				Tooltip:
+					'''
+					Divine Key made from the core of Herrscher of Death, the 6th Herrscher from the Previous
+					Era. A union between the forces of disintegration and creation, it is formed by an outer white
+					lance and an inner black lance, reminiscent of a flower blooming in the darkness. Its true
+					potential awaits to be awakened.
+					'''
+			}
+
+			Aphrodite: {
+				DisplayName: Aphrodite
+				Tooltip:
+					'''
+					Despite being part of the Pantheon-series, this weapon is an enigma. The secret of its
+					deadliness lies not in its sharpness, but its sheer aesthetics. This weapon pays homage to the
+					Aphrodite, the Goddess of Beauty who showers in the fresh blood of her victims.
+					'''
+			}
+
+			Balmung: {
+				DisplayName: Balmung
+				Tooltip:
+					'''
+					A Pantheon-series weapon manufactured by Schicksal using Soulium. The blade is composed
+					entirely out of condensed Honkai energy, allowing it to cut through everything, even the
+					scales of the legendary dragon.
+					'''
+			}
+
+			CrusherBunny19C: {
+				DisplayName: Crusher Bunny19 C
+				Tooltip:
+					'''
+					"How could you have the heart to eat adorable bunnies? Aren't you scared of being eaten by
+					bunnies?" Says [Haxxor Bunny] Bronie.
+					'''
+			}
+
+			EchoOfParadise: {
+				DisplayName: Echo Of Paradise
+				Tooltip:
+					'''
+					A pair of finely preserved flintlocks. Its red finish is inlaid with silver patterns,
+					whereas its brass barrel and striker are reminiscent of past glories. Even if
+					displayed among a host of dazzling antiques and gems, it will not lose its shine.
+					"Listen, don't the sounds of a striker colliding with flint resemble the notes in a magnificent piece?"
+					'''
+			}
+
+			HekatesGloom: {
+				DisplayName: Hekates Gloom
+				Tooltip:
+					'''
+					A unique Pantheon weapon. Like Nuada's Grief and Skadi Ondurgud, it's made using
+					mysterious Soulium with strange hues. The cross can turn into a sharp hovering sword.
+					Countless built-in microblades allow it to unleash a devastating storm of attacks.
+					'''
+			}
+
+			HlersSerenity: {
+				DisplayName: Hlers Serenity
+				Tooltip:
+					'''
+					A unique Pantheon weapon made of mysterious Soulium with strange hues found in the
+					depths of the sea. When Schicksal discovered this lump of Soulium, it was drifting
+					soundlessly in the dark, silent Mariana Trench like an inhabitant of the deep sea.
+					'''
+			}
+
+			HyperRailguns: {
+				DisplayName: Hyper Railguns
+				Tooltip:
+					'''
+					ME Corp developed these hand cannons using Project-MEI test results from 9 years ago.
+					These guns use an EM field to trap a large quantity of Honkai energy particles and to
+					exponentially increase the power of the projectiles launched.
+					'''
+			}
+
+			IceEpiphyllum: {
+				DisplayName: Ice Epiphyllum
+				Tooltip:
+					'''
+					Nagamitsu, the legendary bladesmith who lived for a thousand years and the director of St.
+					1504 Labs, managed to partially characterize the structure of Sakura Blossom to create this
+					imitation blade using Soulium. This weapon has powerful freezing abilities.
+					'''
+			}
+
+			KeyOfCastigation: {
+				DisplayName: Key Of Castigation
+				Tooltip:
+					'''
+					This lightning-imbued blade was born along with the awakening of the Herrscher of Thunder,
+					and it obeys only the lightning queen's commands. The falling sanctions of lightning
+					surrendered the past, and the old her.
+					'''
+			}
+
+			KeyOfEgo: {
+				DisplayName: Key Of Ego
+				Tooltip:
+					'''
+					She loved the world unconditionally, without reservation.
+					With her arrows, her flowers, her love, she awakens this withered earth and builds that
+					flawless paradise at the end of the world.
+					'''
+			}
+
+			KeyOfOblivion: {
+				DisplayName: Key Of Oblivion
+				Tooltip:
+					'''
+					"Hey, old timer, why do you use gauntlets?"
+					"Be it sword, spear, or chain blade, flashy weapons can never bring out the true strength of a martial art master."
+					"Hmm, you should say that to Kevin."
+					'''
+			}
+
+			KeyOfRadiance: {
+				DisplayName: Key Of Radiance
+				Tooltip:
+					'''
+					This fire is here. The darkest of nights failed to dim it.
+					The strongest of ice storms failed to shake it. Fueled by man's will, it has never gone out.
+					Now, the torch is in her hand.
+					'''
+			}
+
+			KeyOfReason: {
+				DisplayName: Key Of Reason
+				Tooltip:
+					'''
+					Bronya constructed this cannon using the Core of Reason. It can be mounted on Project
+					Bunny or deployed as hover guns. The Power to Rebuild of the Herrscher of Reason required
+					years to fathom, but Bronya understood this cannon in mere seconds thanks to her prior
+					knowledge of war and weaponry.
+					'''
+			}
+
+			KeyOfVoid: {
+				DisplayName: Key Of Void
+				Tooltip:
+					'''
+					A guided weapon system summoned from the Void Realms by the 2nd Herrscher upon
+					awakening. These dual pistols do not fire bullets, but "commandments" that tear through the
+					space-time fabric.
+					'''
+			}
+
+			MightOfAnUtu: {
+				DisplayName: Might Of An Utu
+				Tooltip:
+					'''
+					A primed form of the Key of Destruction formed in the hand of its original wielder. The Might
+					of An-Utu is a literal incarnation of the god of destruction, and emits a radiance rivaling that
+					of a supernova. Only a superhuman warrior is strong enough to harness its infinite reserves
+					of destruction.
+					'''
+			}
+
+			NocturnalStealth: {
+				DisplayName: Nocturnal Stealth
+				Tooltip:
+					'''
+					Sword prodigy. Before the girl even knew what the world really is, this title
+					was already engraved in her life. A long search for a mentor, training by the
+					shoal, unpredictable changes in the world, uncertainties all around.
+					'''
+			}
+
+			OathOfJudah: {
+				DisplayName: Oath Of Judah
+				Tooltip:
+					'''
+					A super weapon from the Previous Era armed with the ultimate "Seal". Once deployed, all
+					nearby enemies will be imprisoned and rendered completely immobile, effectively nullifying
+					the Honkai energy within them.
+					'''
+			}
+
+			ObscuringWing: {
+				DisplayName: Obscuring Wing
+				Tooltip:
+					'''
+					In the twilight, the red-eyed hunter lurks among the trees. You can never get a close look at
+					her, because when the dark wings flash across the sky, the arrowhead has already found its
+					way to the heart of the prey.
+					'''
+			}
+
+			RudderinDream: {
+				DisplayName: Rudderin Dream
+				Tooltip:
+					'''
+					An artificial intelligence born in a Pseudotime Crystal. Built into a
+					general-purpose close- to mid-range weapon using futuristic
+					materials and technologies.
+					'''
+			}
+
+			SentienceChain: {
+				DisplayName: Sentience Chain
+				Tooltip: ""
+			}
+
+			SentienceSpear: {
+				DisplayName: Sentience Spear
+				Tooltip: ""
+			}
+
+			SentienceSword: {
+				DisplayName: Sentience Sword
+				Tooltip: ""
+			}
+
+			SleepingBeauty: {
+				DisplayName: Sleeping Beauty
+				Tooltip:
+					'''
+					A silicon-based greatsword constructed using Honkai beast carapace. The sword is lined with
+					thorns and hooks that vibrates when in contact with Honkai energy. "Whoah! The sword is
+					waking up like Sleeping Beauty!" Rozaliya screamed excitedly and decided to name the
+					weapon after the fairy tale.
+					'''
+			}
+
+			StarlancePrime: {
+				DisplayName: Starlance Prime
+				Tooltip:
+					'''
+					Empowered by the might of the bubble universe within her, Durandal has forged a strong and
+					versatile weapon that can unleash star crushing power at her command.
+					'''
+			}
+
+			SwanLake: {
+				DisplayName: Swan Lake
+				Tooltip:
+					'''
+					A greatsword forged using an ideal, high density crystalline iron. Its surface is just as smooth
+					as serene lake. The technological level needed to construct this weapon is way beyond the
+					means of Anti-Entropy. How did Cocolia make this?
+					'''
+			}
+
+			TranquilArias: {
+				DisplayName: Tranquil Arias
+				Tooltip:
+					'''
+					A mysterious weapon stored in the deepest vaults of Schicksal St. 1504 Labs. Manufacturing
+					date: Unknown. Past wielders: None. No records of this weapon could be found in the
+					Schicksal database. Its very existence is like the shadowy darkness that descends quietly with the night...
+					'''
+			}
+
+			UndinesTale: {
+				DisplayName: Undines Tale
+				Tooltip:
+					'''
+					A scythe that appeared when Seele activated the powers of her stigma. This razor sharp
+					weapon of terror is a stark contrast to the quiet and shy little girl. Perhaps the weapon is a
+					secret side of her true nature or an embodiment of her wish to protect someone special.
+					'''
+			}
+
+			WhisperOfThePast: {
+				DisplayName: Whisper Of The Past
+				Tooltip:
+					'''
+					The weapon of Elysia, the 2nd Flame-Chaser. When she draws the bow, the arrow crystallizes
+					on the arrow rest, and after release, it plants a magical seed on the target which then
+					becomes a glorious blossom. "I've always wondered how Elysia shoots these arrows. Doesn\'t
+					seem like Honkai energy to me. Of course, if you asked her, she\'d say 'It's magic!\'"
+					'''
+			}
+
+			ZithersLament: {
+				DisplayName: Zithers Lament
+				Tooltip:
+					'''
+					The zither sings for the dearly missed, and fond memories that last a thousand years. Some
+					say it's a wonderful instrument that moves listeners to tears, while others say it's a deadly
+					weapon with hidden blades that shred enemies to pieces. They're probably both true, for it's
+					meant to share life's joy and also protect loved ones at all costs.
+					'''
+			}
+
+			# PRI Weapons =========================================================
+			
+			DomainOfEgo: {
+				DisplayName: Domain Of Ego
+				Tooltip:
+					'''
+					She loved the world so deeply, as to open up the future. She gives her
+					goodness, beauty, and light to a newly born humanity, sharing it with
+					strangers along their way.
+					'''
+			}
+
+			DomainOfSanction: {
+				DisplayName: Domain Of Sanction
+				Tooltip:
+					'''
+					The divine sanction fell again three years later, and the girl conquered her fear to embrace
+					the Herrscher power. The blazing blade is a testament to her might and resolve, with which
+					she shall cleanse all sins and reverse fate's verdict.
+					'''
+			}
+
+			DomainOfSentience: {
+				DisplayName: Domain Of Sentience
+				Tooltip:
+					'''
+					"Why do you use such weird weapons?"
+					"Cuz I can and fists are boring"
+					"What's with the weird names?"
+					"It's humor."
+					'''
+			}
+
+			DomainOfVoid: {
+				DisplayName: Domain Of Void
+				Tooltip:
+					'''
+					Herrscher of the Void, hidden within K423, has fallen into a deep slumber for a long time. But
+					her will remains strong. As her power grows, these oddly shaped dual pistols sealed within
+					the Imaginary Space have gradually changed form. They are quietly awaiting the queen\'s return...
+					'''
+			}
+
+			FrozenNaraka: {
+				DisplayName: Frozen Naraka
+				Tooltip:
+					'''
+					A frost-encased Soulium katana of ice. Historical records indicate that it used to belong to a
+					warrior under the Previous Era organization known as the Moth Who Chases the Flames.
+					However, the katana was lost over the years. Hardly any records mention this warrior. The
+					Director of Schicksal's St 1503 Labs is the only one investigating the secrets of this weapon.
+					'''
+			}
+
+			HekatesSombre: {
+				DisplayName: Hekates Sombre
+				Tooltip:
+					'''
+					The PRI-ARM form of Hekate's Gloom. Reforged based on the battle data from the Twilight
+					Paladin battlesuit, it's now even more deadly and harnesses Honkai energy with higher
+					efficiency. When Hekate's Sombre spreads its wings, dark blades rain down from the night
+					sky and deliver swift death.
+					'''
+			}
+
+			HlersAtaraxia: {
+				DisplayName: Hlers Ataraxia
+				Tooltip:
+					'''
+					The PRI-ARM form of Hler's Serenity. The modification by Schicksal has bestowed it with even
+					more brilliance. When it shows up, everything goes quiet, save for the lamenting whispers of
+					the deep sea...
+					'''
+			}
+
+			NocturnalStealthBeam: {
+				DisplayName: Nocturnal Stealth Beam
+				Tooltip:
+					'''
+					Edge of Taixuan, the source of confidence for Li Sushang to roam the world and also
+					a story near forgotten. Age�old feuds drew her into the unpredictable vortex of fate,
+					yet also froze her youthful life when death was imminent.
+					'''
+			}
+
+			ShuhadakuOfUriel: {
+				DisplayName: Shuhadaku Of Uriel
+				Tooltip:
+					'''
+					Destined to burn out all the stars, this greatsword brings nothing but destruction. As its
+					flames devour the heavens, every soul will be claimed. This is the sword that transcends the end.
+					'''
+			}
+
+			TranquilRhapsody: {
+				DisplayName: Tranquil Rhapsody
+				Tooltip:
+					'''
+					The PRI-ARM form of Tranquil Arias, a mystic weapon developed by St. 1504 Labs of Schicksal.
+					The entire project was conducted under the direction of the Schicksal Overseer. According to
+					the researchers involved in the project, this pair of dual pistols demonstrated incredibly
+					advanced performance that must not belong to the modern era.
+					'''
+			}
+
+			WhisperOfThePast_Sonnet: {
+				DisplayName: Whisper Of The Past: Sonnet
+				Tooltip:
+					'''
+					"It's my favorite bow. Like a blossom when it's resting, and swift as a bird in flight when it's in
+					action. Just like me. Don't stare at it for too long, or you won't be able to look away anymore.
+					Or is it me you're looking at?"
+					'''
+			}
+
+			SleepersDream: {
+				DisplayName: Sleepers Dream
+				Tooltip:
+					'''
+					A specialized greatsword crafted alongside Odette the Silent. Delta's best companion in battle.
+					The dream has long faded, but the two greatswords are still keeping her company just like the old days.
+					'''
+			}
+
+			ValkyrieJudah: {
+				DisplayName: Valkyrie Judah
+				Tooltip: ""
+			}
+
+			# Consumable =========================================================
+			
+			ActiveElementD20: {
+				DisplayName: Active Element D20
+				Tooltip:
+					'''
+					A drug that can activate Honkai energy in organisms,
+					a byproduct of the Schicksal-made Spear of Destiny.
+					Can potentially spawn a zombie apocalypse.
+					Use with caution!!? Maybe its still too early...
+					I should probably wait for next update
+					'''
+			}
+
+			ForbiddenTech: {
+				DisplayName: Forbidden Tech
+				Tooltip:
+					'''
+					A dark tech crude hacking system.
+					Can potentially send all Mechas into rampage.
+					'''
+			}
+
+			HonkaiCube: {
+				DisplayName: Honkai Cube
+				Tooltip:
+					'''
+					A very rare aggregation of Honkai Energy.
+					Can potentially attrat nearby Honkai beast and trigger an erruption.
+					Use with caution!!
+					'''
+			}
+
+			# Materials ==========================================================
+			
+			Crystal: {
+				DisplayName: Crystal
+				Tooltip: Mysterious crystals for buying anything in the Honkai-verse.
+			}
+
+			EinsteinsTorus: {
+				DisplayName: Einsteins Torus
+				Tooltip:
+					'''
+					An upgrade material for PRI weapons.
+					A toroidal device that uses powerful magnetic fields to confine
+					nuclear fusion reactions (also known as a "Tokomak"). Dr. Einstein
+					miniaturized this but it is still far from perfect.
+					'''
+			}
+
+			HonkaiShard: {
+				DisplayName: Honkai Shard
+				Tooltip: A very rare aggregation of Honkai Energy.
+			}
+
+			Nanoceramic: {
+				DisplayName: Nanoceramic
+				Tooltip:
+					'''
+					Upgrade material for PRI weapons.
+					A composite of ceramic nano-particles and other materials in a
+					ceramic substrate. Offers high machinability as well as rigidity and
+					hardness that surpasses metal alloy equivalent.
+					'''
+			}
+
+			SCMetalH2: {
+				DisplayName: SC Metal H2
+				Tooltip:
+					'''
+					Upgrade material for PRI weapons.
+					Conductive material with excellent energy storage capacities.
+					Created by subjecting liquid hydrogen to extreme pressures. Unlike
+					naturally occurring metals, metallic hydrogen is not solid and must
+					be stored in a special container.
+					'''
+			}
+
+			SSImaginon: {
+				DisplayName: SS Imaginon
+				Tooltip:
+					'''
+					Necessary material for forging weapons.
+					An imaginon developed by Schicksal for investigating physics
+					theories. The competition came up with another version with bad
+					coloring. Schicksal is always right.
+					'''
+			}
+
+			AEImaginon: {
+				DisplayName: AE Imaginon
+				Tooltip:
+					'''
+					Necessary material for forging weapons.
+					An imaginon developed by Anti-Entropy (AE) for investigating
+					physics theories. The competition came up with another version
+					with bad coloring. AE is always cool.
+					'''
+			}
+
+			FalconFlare0019: {
+				DisplayName: Falcon Flare0019
+				Tooltip: ""
+			}
+		}
+
+		NPCs: {
+			Benares.DisplayName: Benares
+			AlloyChariot.DisplayName: Alloy Chariot
+			Cassiel.DisplayName: Cassiel
+			Crab.DisplayName: Crab
+			Paladin.DisplayName: Paladin
+			StormTemplar.DisplayName: Storm Templar
+
+			Homu: {
+				DisplayName: Homu
+
+				TownNPCMood: {
+					Content: "{$Mods.OtakuTech.TownNPCMood.Homu.Content}"
+					NoHome: "{$Mods.OtakuTech.TownNPCMood.Homu.NoHome}"
+					FarFromHome: "{$Mods.OtakuTech.TownNPCMood.Homu.FarFromHome}"
+					LoveSpace: "{$Mods.OtakuTech.TownNPCMood.Homu.LoveSpace}"
+					DislikeCrowded: "{$Mods.OtakuTech.TownNPCMood.Homu.DislikeCrowded}"
+					HateCrowded: "{$Mods.OtakuTech.TownNPCMood.Homu.HateCrowded}"
+					LikeNPC_Princess: I like {NPCName}.
+					Princess_LovesNPC: I like {NPCName}.
+				}
+			}
+
+			Spider.DisplayName: Spider
+			Lightning.DisplayName: Lightning
+			Titan.DisplayName: Titan
+			AesirHeimdall.DisplayName: Aesir Heimdall
+		}
+
+		Prefixes: {
+			FourStarS0Prefix.DisplayName: Four Star S0 Prefix
+			FourStarS1Prefix.DisplayName: Four Star S1 Prefix
+			FourStarS2Prefix.DisplayName: Four Star S2 Prefix
+			FourStarS3Prefix.DisplayName: Four Star S3 Prefix
+		}
+
+		# No need for translation under here ========================================
+		
+		Projectiles: {
+			ExcelsisKingMinion.DisplayName: Excelsis King Minion
+			FlawlessDome.DisplayName: Flawless Dome
+			HaxxorDrones.DisplayName: Haxxor Drones
+			HekatesCross.DisplayName: Hekates Cross
+			HekatesSombreCross.DisplayName: Hekates Sombre Cross
+			JudahCross.DisplayName: Judah Cross
+			KeyOfReasonCannon.DisplayName: Key Of Reason Cannon
+			Kurikara.DisplayName: Kurikara
+			KurikaraLaser.DisplayName: Kurikara Laser
+			SelunesElegy.DisplayName: Selunes Elegy
+			ZithersCross.DisplayName: Zithers Cross
+			Fireball.DisplayName: Fireball
+			IceShard.DisplayName: Ice Shard
+			LightningBall.DisplayName: Lightning Ball
+			AimerSystem.DisplayName: Aimer System
+			AimerSystem2.DisplayName: Aimer System2
+			ChargedAimerFullEdges.DisplayName: Charged Aimer Full Edges
+			AbyssFlowerJavlinProjectile.DisplayName: Abyss Flower Javlin Projectile
+			AbyssFlowerProjectile.DisplayName: Abyss Flower Projectile
+			EtherAnchors.DisplayName: Ether Anchors
+			HlersAtaraxiaProjectile.DisplayName: Hlers Ataraxia Projectile
+			HlersAtaraxiaProjectileJavlin.DisplayName: Hlers Ataraxia Projectile Javlin
+			HlersSerenityProjectile.DisplayName: Hlers Serenity Projectile
+			HlersSerenityProjectileJavlin.DisplayName: Hlers Serenity Projectile Javlin
+			PhantomCleave1.DisplayName: Phantom Cleave1
+			PhantomCleave2.DisplayName: Phantom Cleave2
+			PhantomCleave3.DisplayName: Phantom Cleave3
+			PhantomCleaveBeam.DisplayName: Phantom Cleave Beam
+			StarlancePrimeJavlinProjectile.DisplayName: Starlance Prime Javlin Projectile
+			StarlancePrimeProjectile.DisplayName: Starlance Prime Projectile
+			EchoOfParadise.DisplayName: Echo Of Paradise
+			AnArrowforFlowerAndFowl.DisplayName: An Arrowfor Flower And Fowl
+			Crystal.DisplayName: Crystal
+			CrystalMirror.DisplayName: Crystal Mirror
+			CrystalShards.DisplayName: Crystal Shards
+			CrystalShardsLarge.DisplayName: Crystal Shards Large
+			CrystalSlash.DisplayName: Crystal Slash
+			CrystalSpike.DisplayName: Crystal Spike
+			CrystalSpikeAir.DisplayName: Crystal Spike Air
+			InfiniteHelix.DisplayName: Infinite Helix
+			SpiritOfOrigin.DisplayName: Spirit Of Origin
+			HoSUltSpecial.DisplayName: Ho S Ult Special
+			SentienceChainCharge.DisplayName: Sentience Chain Charge
+			SentienceSpearCharge.DisplayName: Sentience Spear Charge
+			SentienceSpearCombo.DisplayName: Sentience Spear Combo
+			SentienceSpearProjectile.DisplayName: Sentience Spear Projectile
+			SentienceSwordCharge.DisplayName: Sentience Sword Charge
+			SentienceSwordGather.DisplayName: Sentience Sword Gather
+			SentienceSwordProjectile.DisplayName: Sentience Sword Projectile
+			SentienceWhip.DisplayName: Sentience Whip
+			TestProjectile2.DisplayName: Test Projectile2
+			TrialofTrinitySword.DisplayName: Trialof Trinity Sword
+			GenericSlash.DisplayName: Generic Slash
+			TwilightNocturne.DisplayName: Twilight Nocturne
+			BlackHole.DisplayName: Black Hole
+			CommandmentsProjectile.DisplayName: Commandments Projectile
+			Flamescion.DisplayName: Flamescion
+			BoltSlash.DisplayName: Bolt Slash
+			CloudCutter.DisplayName: Cloud Cutter
+			CrowningEminence.DisplayName: Crowning Eminence
+			CuttingForm.DisplayName: Cutting Form
+			RefiningAscensionProjectile.DisplayName: Refining Ascension Projectile
+			WildSwords.DisplayName: Wild Swords
+			WrathRipstone.DisplayName: Wrath Ripstone
+			WrathRoiling.DisplayName: Wrath Roiling
+			RavagingFlame.DisplayName: Ravaging Flame
+			RavagingFlame2.DisplayName: Ravaging Flame2
+			Slash.DisplayName: Slash
+			SleepingBeautySwirl.DisplayName: Sleeping Beauty Swirl
+			SwanLakeRetaliation.DisplayName: Swan Lake Retaliation
+			ShadowClone.DisplayName: Shadow Clone
+			SusanoosFrenzy.DisplayName: Susanoos Frenzy
+			Takemikazuchi.DisplayName: Takemikazuchi
+			Takemikazuchi2.DisplayName: Takemikazuchi2
+			FeatherBlade.DisplayName: Feather Blade
+			ReaperOfWeeds.DisplayName: Reaper Of Weeds
+			ReaperOfWeedsStorm.DisplayName: Reaper Of Weeds Storm
+			RosyFuneral.DisplayName: Rosy Funeral
+			FlutteringRipple.DisplayName: Fluttering Ripple
+			SereneReaper3.DisplayName: Serene Reaper3
+			SereneReaper4.DisplayName: Serene Reaper4
+			SwingProjectile.DisplayName: Swing Projectile
+			EightFormations.DisplayName: Eight Formations
+			FangsOfDusk.DisplayName: Fangs Of Dusk
+			FangsOfDusk2.DisplayName: Fangs Of Dusk2
+			FangsOfDusk3.DisplayName: Fangs Of Dusk3
+			FangsOfDusk4.DisplayName: Fangs Of Dusk4
+			FerventCombo4.DisplayName: Fervent Combo4
+			LightningSpear.DisplayName: Lightning Spear
+			RoseFinch.DisplayName: Rose Finch
+			RoseFinch2.DisplayName: Rose Finch2
+			InstantDraw.DisplayName: Instant Draw
+			Explosion.DisplayName: Explosion
+			Missile.DisplayName: Missile
+			SereneReaper5.DisplayName: Serene Reaper5
+			SleepingBeautyStrike.DisplayName: Sleeping Beauty Strike
+			SleepingBeautySwirl2.DisplayName: Sleeping Beauty Swirl2
+			SleepersDreamStrike.DisplayName: Sleepers Dream Strike
+			StormDervish.DisplayName: Storm Dervish
+			NeonImpact.DisplayName: Neon Impact
+			AesirHeimdallSlash.DisplayName: Aesir Heimdall Slash
+			AesirHeimdallMissile.DisplayName: Aesir Heimdall Missile
+			AesirHeimdallShockWave.DisplayName: Aesir Heimdall Shock Wave
+			PlasmaShot.DisplayName: Plasma Shot
+			PlasmaLaser.DisplayName: Plasma Laser
+			Birb.DisplayName: Birb
+			PlasmaShot2.DisplayName: Plasma Shot2
+			PlasmaBall.DisplayName: Plasma Ball
+			PlasmaExplosion.DisplayName: Plasma Explosion
+		}
+	}
+}
